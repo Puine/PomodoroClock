@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>PomodoroClock</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Amatic+SC:700'>
+<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <body>
+  <div class="container">
+    <div class="text-center title">
+      <h1>Pomodoro Clock</h1>
+    </div>
+     <div class="row">
+      <div class="col-xs-3 col-xs-offset-3 text-center">
+        <div class="settings">
+          <p>break</p>
+        </div>
+      </div>
+      <div class="col-xs-3 text-center">
+        <div class="settings">
+          <p>work</p>
+        </div>
+      </div>
+    </div>
+    <div class="row margbot">
+      <div class="col-xs-3 col-xs-offset-3 text-center">
+        <div class="settings">
+          <input class="set-but" type="button" id="bbp" value="+" />
+          <input class="set-in" type="text" id="setbreak" value="5"/>
+          <input class="set-but" type="button" id="bbm" value="-" />
+        </div>
+      </div>
+      <div class="col-xs-3 text-center">
+        <div class="settings">
+          <input class="set-but" type="button" id="bwp" value="+" />
+          <input class="set-in" type="text" id="setwork" value="25"/>
+          <input class="set-but" type="button" id="bwm" value="-" />
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 col-lg-offset-3 text-center">
+      <div id="clock" class="btn clock-b">
+        <p id="what" class="clock-label"></p>
+        <p id="time">00:00</p>
+      </div>
+    </div>
+ </div>
+</body>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
